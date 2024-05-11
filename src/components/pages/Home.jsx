@@ -34,12 +34,12 @@ function Home({
       <div className="d-flex align-center justify-between mb-40">
         <h1>{searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}</h1>
         <div className="search-block d-flex">
-          <img src="/img/search.svg" alt="Search" />
+          <img src="https://raw.githubusercontent.com/Votum1703/Sneakers-2024/0d9debbb3746610a2215612cd5e425bc8a30592c/public/img/search.svg" alt="Search" />
           {searchValue && (
             <img
               onClick={() => setSearchValue('')}
               className="clear cu-p"
-              src="/img/btn-remove.svg"
+              src="https://raw.githubusercontent.com/Votum1703/Sneakers-2024/0d9debbb3746610a2215612cd5e425bc8a30592c/public/img/btn-remove.svg"
               alt="Clear"
             />
           )}

@@ -9,7 +9,7 @@ import AppContext from '../context';
         <h2>{title}</h2>
         <p className="opacity-6">{description}</p>
         <button onClick={() => setCartOpened(false) } className="greenButton">
-        <img src="img/arrow.svg" alt="Arrow" />
+        <img src="https://raw.githubusercontent.com/Votum1703/Sneakers-2024/0d9debbb3746610a2215612cd5e425bc8a30592c/public/img/arrow.svg" alt="Arrow" />
         Вернуться назад
         </button>
     </div>
